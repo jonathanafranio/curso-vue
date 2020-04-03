@@ -1,4 +1,4 @@
-# project-scholl
+# Project Scholl For Udemy Course
 
 Conteúdo do curso que fiz na Udemy de Vue do Vinícius De Andrade(https://github.com/vsandrade):
 Link do curso: https://www.udemy.com/course/fullstack-vuejs-dotnetcore-efcore/
