@@ -1,16 +1,30 @@
 <template>
-  <div id="app">
-    <Alunos />
-  </div>
+    <div id="app">
+        <Nav></Nav>
+        <div class="marginPrincipal">
+
+            <router-view :key="$route.fullPath"></router-view>
+
+            <!--<Alunos />
+            <Professor />
+            <Sobre />-->
+        </div>
+    </div>
 </template>
 
 <script>
-import Alunos from './components/Aluno/Alunos.vue'
+//import Alunos from './components/Aluno/Alunos'
+//import Professor from './components/Professor/Professor'
+//import Sobre from './components/Sobre/Sobre'
+import Nav from './components/_nav/Nav'
 
 export default {
   name: 'App',
   components: {
-    Alunos
+    //Alunos,
+    //Professor,
+    //Sobre,
+    Nav
   }
 }
 </script>
@@ -29,9 +43,16 @@ body, html {
   height: 100%;
 }
 #app {
-
+    width: 100%;
+}
+.marginPrincipal {
+    width: 50%;
+    display: block;
+    margin: auto;
+    position: relative;
 }
 .btn {
+    width: 150px;
     padding: 10px 20px;
     border: 1px solid #000;
     cursor: pointer;

@@ -1,69 +1,214 @@
 {
+  "professores": [
+    {
+      "id": 1,
+      "nome": "Osvaldo Brandão"
+    },
+    {
+      "id": 2,
+      "nome": "José de Souza Teixeira"
+    }
+  ],
   "alunos": [
     {
       "id": 1,
       "nome": "José",
-      "sobrenome": " Benedito Tobias"
+      "sobrenome": " Benedito Tobias",
+      "dataNasc": "13/05/1949",
+      "professor": {
+        "id": 1,
+        "nome": "Osvaldo Brandão"
+      }
     },
     {
       "id": 2,
       "nome": "José",
-      "sobrenome": "Maria Rodrigues Alves"
+      "sobrenome": "Maria Rodrigues Alves",
+      "dataNasc": "18/05/1949",
+      "professor": {
+        "id": 1,
+        "nome": "Osvaldo Brandão"
+      }
     },
     {
       "id": 3,
       "nome": "Moisés",
-      "sobrenome": "Matias de Andrade"
+      "sobrenome": "Matias de Andrade",
+      "dataNasc": "10/01/1948",
+      "professor": {
+        "id": 1,
+        "nome": "Osvaldo Brandão"
+      }
     },
     {
       "id": 4,
       "nome": "Ademir",
-      "sobrenome": "José Gonçalves"
+      "sobrenome": "José Gonçalves",
+      "dataNasc": "10/11/1947",
+      "professor": {
+        "id": 2,
+        "nome": "José de Souza Teixeira"
+      }
     },
     {
       "id": 5,
       "nome": "Wladimir",
-      "sobrenome": "Rodrigues dos Santos"
+      "sobrenome": "Rodrigues dos Santos",
+      "dataNasc": "29/08/1954",
+      "professor": {
+        "id": 1,
+        "nome": "Osvaldo Brandão"
+      }
     },
     {
       "id": 6,
       "nome": "José",
-      "sobrenome": "Carlos dos Santos (Ruço)"
+      "sobrenome": "Carlos dos Santos (Ruço)",
+      "dataNasc": "03/06/1949",
+      "professor": {
+        "id": 1,
+        "nome": "Osvaldo Brandão"
+      }
     },
     {
       "id": 7,
       "nome": "João",
-      "sobrenome": "Roberto Basílio"
+      "sobrenome": "Roberto Basílio",
+      "dataNasc": "04/02/1949",
+      "professor": {
+        "id": 1,
+        "nome": "Osvaldo Brandão"
+      }
     },
     {
       "id": 8,
       "nome": "Luciano",
-      "sobrenome": "Jorge Veloso"
+      "sobrenome": "Jorge Veloso",
+      "dataNasc": "13/09/1948",
+      "professor": {
+        "id": 2,
+        "nome": "José de Souza Teixeira"
+      }
     },
     {
       "id": 9,
       "nome": "Wagno ",
-      "sobrenome": "de Freitas (Vaguinho)"
+      "sobrenome": "de Freitas (Vaguinho)",
+      "dataNasc": "11/02/1950",
+      "professor": {
+        "id": 1,
+        "nome": "Osvaldo Brandão"
+      }
     },
     {
       "id": 10,
       "nome": "Geraldo",
-      "sobrenome": "da Silva"
+      "sobrenome": "da Silva",
+      "dataNasc": "25/07/1949",
+      "professor": {
+        "id": 1,
+        "nome": "Osvaldo Brandão"
+      }
     },
     {
       "id": 11,
       "nome": "Romeu",
-      "sobrenome": "Evangelista"
+      "sobrenome": "Evangelista",
+      "dataNasc": "27/03/1950",
+      "professor": {
+        "id": 1,
+        "nome": "Osvaldo Brandão"
+      }
     },
     {
+      "id": 13,
       "nome": "Ernesto Luís Lance",
-      "sobrenome": "",
-      "id": 13
+      "sobrenome": "Luís Lance",
+      "dataNasc": "19/01/1949",
+      "professor": {
+        "id": 2,
+        "nome": "José de Souza Teixeira"
+      }
     },
     {
-      "nome": "Vanderlei Eustáquio de Oliveira (Palhinha) ",
-      "sobrenome": "",
-      "id": 14
+      "id": 14,
+      "nome": "Vanderlei",
+      "sobrenome": "Eustáquio de Oliveira (Palhinha)",
+      "dataNasc": "11/06/1950",
+      "professor": {
+        "id": 1,
+        "nome": "Osvaldo Brandão"
+      }
+    },
+    {
+      "id": 15,
+      "nome": "José ",
+      "sobrenome": "Eduardo de Toledo Pereira",
+      "dataNasc": "12/04/1954",
+      "professor": {
+        "id": 1,
+        "nome": "Osvaldo Brandão"
+      }
+    },
+    {
+      "id": 16,
+      "nome": "Jairo",
+      "sobrenome": "do Nascimento",
+      "dataNasc": " 23/10/1946 ",
+      "professor": {
+        "id": 2,
+        "nome": "José de Souza Teixeira"
+      }
+    },
+    {
+      "id": 17,
+      "nome": "Cláudio",
+      "sobrenome": "Antônio do Nascimento",
+      "dataNasc": "18/07/1952",
+      "professor": {
+        "id": 2,
+        "nome": "José de Souza Teixeira"
+      }
+    },
+    {
+      "id": 19,
+      "nome": "Adão",
+      "sobrenome": "Ambrósio",
+      "dataNasc": "17/10/1951",
+      "professor": {
+        "id": 2,
+        "nome": "José de Souza Teixeira"
+      }
+    },
+    {
+      "id": 20,
+      "nome": "Jonas ",
+      "sobrenome": "Eduardo Américo",
+      "dataNasc": "06/08/1949",
+      "professor": {
+        "id": 2,
+        "nome": "José de Souza Teixeira"
+      }
+    },
+    {
+      "id": 21,
+      "nome": "Givanildo",
+      "sobrenome": "José de Oliveira",
+      "dataNasc": "08/10/1948",
+      "professor": {
+        "id": 2,
+        "nome": "José de Souza Teixeira"
+      }
+    },
+    {
+      "id": 22,
+      "nome": "Darcy",
+      "sobrenome": "Marques Júnior",
+      "dataNasc": "16/08/1954",
+      "professor": {
+        "id": 2,
+        "nome": "José de Souza Teixeira"
+      }
     }
   ]
 }
