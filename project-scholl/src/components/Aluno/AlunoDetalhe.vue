@@ -69,11 +69,13 @@ export default {
         }
     },
     created() {
-        fetch('http://localhost:3000/alunos/'+ this.id)
+        //fetch('http://localhost:3000/alunos/'+ this.id)
+        fetch('https://my-json-server.typicode.com/jonathanafranio/curso-vue/alunos/'+ this.id)
         .then(res => res.json())
         .then(aluno => this.aluno = aluno);
 
-        fetch('http://localhost:3000/professores')
+        //fetch('http://localhost:3000/professores')
+        fetch('https://my-json-server.typicode.com/jonathanafranio/curso-vue/professores')
         .then(res => res.json())
         .then(professor => this.professores = professor)
     },
@@ -89,7 +91,8 @@ export default {
                 dataNasc: _aluno.dataNasc,
                 professor: _aluno.professor
             };
-            fetch('http://localhost:3000/alunos/'+ _alunoEditar.id, {
+            //fetch('http://localhost:3000/alunos/'+ _alunoEditar.id, {
+            fetch('https://my-json-server.typicode.com/jonathanafranio/alunos/'+ _alunoEditar.id, {
                 method: 'PUT',
                 headers: {
                     'Content-Type': 'application/json'

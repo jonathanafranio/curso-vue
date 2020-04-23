@@ -28,6 +28,9 @@ npm run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
+Atualmente estou usando o My Json Server (https://my-json-server.typicode.com/) para consumir a API,
+mas pode instalar o pacote JSON-Server na sua NPM para trabalhar local:
+
 ### Json Server:
 ```
 npm install -g json-server
@@ -35,5 +38,5 @@ npm install -g json-server
 
 ### Server loads for development
 ```
-json-server --watch banco.json
+json-server --watch db.json
 ```

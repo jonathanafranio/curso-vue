@@ -55,14 +55,16 @@ export default {
         }
     },
     created(){
-        let request = 'http://localhost:3000/alunos';
+        //let request = 'http://localhost:3000/alunos';
+        let request = 'https://my-json-server.typicode.com/jonathanafranio/curso-vue/alunos';
         //this.$http.get('http://localhost:3000/alunos')
         // Prefiro usar fetch do que o $http
         //O fetch ja faz a mesma coisa que o $http
         //...e nao precisa de instalar Vue Resource
         //...pq o fetch ja e nativo do proprio JS
         if(this.professorid) {
-            request = 'http://localhost:3000/alunos/?professor.id='+this.professorid;
+            //request = 'http://localhost:3000/alunos/?professor.id='+this.professorid;
+            request = 'https://my-json-server.typicode.com/jonathanafranio/curso-vue/alunos/?professor.id='+this.professorid;
             this.carregarProfessores();
         }
         fetch(request)
@@ -90,7 +92,8 @@ export default {
             //O fetch ja faz a mesma coisa que o $http
             //...e nao precisa de instalar Vue Resource
             //...pq o fetch ja e nativo do proprio JS
-            fetch('http://localhost:3000/alunos',{
+            //fetch('http://localhost:3000/alunos',{
+            fetch('https://my-json-server.typicode.com/jonathanafranio/curso-vue/alunos',{
                 method: 'POST',
                 headers: {
                     //'Accept': 'application/json', //nem precisou
@@ -110,7 +113,8 @@ export default {
             //O fetch ja faz a mesma coisa que o $http
             //...e nao precisa de instalar Vue Resource
             //...pq o fetch ja e nativo do proprio JS
-            fetch('http://localhost:3000/alunos/'+aluno.id,{
+            //fetch('http://localhost:3000/alunos/'+aluno.id,{
+            fetch('https://my-json-server.typicode.com/jonathanafranio/curso-vue/alunos/'+aluno.id,{
                 method: 'DELETE'
             })
             .then(() => {
@@ -119,7 +123,8 @@ export default {
             });
         },
         carregarProfessores(){
-            fetch('http://localhost:3000/professores/' + this.professorid)
+            //fetch('http://localhost:3000/professores/' + this.professorid)
+            fetch('https://my-json-server.typicode.com/jonathanafranio/curso-vue/professores/' + this.professorid)
             .then(res => res.json())
             .then(professor => {
                 this.professor = professor;

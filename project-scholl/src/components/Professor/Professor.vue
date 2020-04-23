@@ -41,7 +41,8 @@ export default {
         }
     },
     created(){
-        fetch('http://localhost:3000/alunos')
+        //fetch('http://localhost:3000/alunos')
+        fetch('https://my-json-server.typicode.com/jonathanafranio/curso-vue/alunos')
         .then(res => res.json())
         .then(alunos => {
             this.Alunos = alunos;
@@ -63,7 +64,8 @@ export default {
             });
         },
         carregarProfessores(){
-            fetch('http://localhost:3000/professores')
+            //fetch('http://localhost:3000/professores')
+            fetch('https://my-json-server.typicode.com/jonathanafranio/curso-vue/professores')
             .then(res => res.json())
             .then(professor => {
                 this.Professores = professor;
